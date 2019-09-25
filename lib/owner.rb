@@ -33,7 +33,8 @@ class Owner
   end 
   
   def buy_cat
-    
+    cat = Cat.new(name, self)
+    @cats << cat
   end 
   
   def buy_dog
