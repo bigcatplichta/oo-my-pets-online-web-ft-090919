@@ -53,5 +53,7 @@ class Owner
       dog.mood = "nervous"
       dog.owner = nil 
       end 
+      @cats.clear
+      @dogs.clear
   end 
 end
